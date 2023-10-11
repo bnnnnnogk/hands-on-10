@@ -15,8 +15,12 @@ const Navbar = () => {
         </div>
       </Link>
       <nav className={styles.container__navbar}>
-        <Link to="/">Login</Link>
-        <Link to="/">Register</Link>
+        <Link className={styles.font__text} to="/">
+          Login
+        </Link>
+        <Link className={styles.font__text} to="/">
+          Register
+        </Link>
       </nav>
     </header>
   )
