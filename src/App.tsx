@@ -1,10 +1,12 @@
+import { Route, Routes } from "react-router-dom"
 import "./App.css"
+import FullPages from "./template/Fullpages"
 
 function App() {
   return (
-    <>
-      <div></div>
-    </>
+    <Routes>
+      <Route path="/" element={<FullPages />} />
+    </Routes>
   )
 }
 
