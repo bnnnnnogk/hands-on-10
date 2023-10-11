@@ -1,0 +1,19 @@
+.container__banner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 96px 128px;
+  background-color: #fff7e9;
+}
+
+.main__title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff731d;
+}
+
+.sub__title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #7f8487;
+}
